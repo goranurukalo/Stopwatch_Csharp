@@ -62,10 +62,7 @@ namespace Stopwatch.View
         }
 
         private void btnOK_Click(object sender, RoutedEventArgs e)
-        {           
-            // Svojstvo DialogResult se postavlja na true da bi se
-            // u glavnom prozoru signaliziralo da je dijalog zatvoren
-            // dugmetom OK. Postavljanjem ovog svojstva istovremeno se i zatvara dijalog.
+        {
             this.DialogResult = true;
         }
     }
